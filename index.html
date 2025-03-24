@@ -6,6 +6,7 @@
     <title>Swastik Lifesciences</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/Fav-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -62,11 +63,15 @@
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="image/banner-1.jpg" class="d-block w-100" alt="banner">
+            <img src="image/Welcome-banner.jpg" class="d-block w-100" alt="banner">
           </div>
           <div class="carousel-item">
-            <img src="image/banner-2.jpg" class="d-block w-100" alt="banner">
-          </div>          
+            <img src="image/Third-Party-Banner.jpg" class="d-block w-100" alt="banner">
+          </div>
+          <div class="carousel-item">
+            <img src="image/PCD-Pharma-Franchise.jpg" class="d-block w-100" alt="banner">
+          </div>
+                    
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,14 +81,42 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+       
       </div>
+      <div class="banner-content w-100 py-md-5">
+        <div class="container-xl row mx-auto">
+            <div class="col-md-3 col-sm-7 ms-md-auto">
+                <h4>Enquire Us</h4>
+                <p>(Do not Post Job Queries)</p>
+                <form action="mail.php" method="post">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="name" placeholder="Name" required="">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="number" placeholder="Phone Number" required="">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="city" placeholder="Location" required="">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" name="message" placeholder="Message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
+   
       <!-- ABOUT SECTION -->
       <section id="about" class="about section">
         <div class="container">  
           <div class="row">  
             <div class="col-md-6 col-sm-6 position-relative d-flex align-items-center justify-content-center">
-              <img src="image/about-img.jpg" class="img-fluid" alt="about us">
+              <img src="image/ABOUT-US-1.png" class="img-fluid" alt="about us">
              
             </div>
   
@@ -133,7 +166,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="py-5 text-center text-white">
                             <div>
-                                <i class="bi bi-building count-icon"></i>
+                                <img src="image/Happy-Clients.png" alt="Clients">
                             </div>
                             <div class="py-2 count">
                                 <span id="count1">2000</span>+
@@ -146,7 +179,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="py-5 text-center text-white">
                             <div>
-                                <i class="bi bi-people count-icon"></i>
+                                <img src="image/Associates.png" alt="Associates">
                             </div>
                             <div class="py-2 count">
                                 <span id="count2">1500</span>+
@@ -159,7 +192,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="py-5 text-center text-white">
                             <div>
-                                <i class="bi bi-trophy count-icon"></i>
+                               <img src="image/Specialty-Divisions.png" alt="division">
                             </div>
                             <div class="py-2 count">
                                 <span id="count3">4</span>+
@@ -172,7 +205,7 @@
                     <div class="col-6 col-lg-3">
                         <div class="py-5 text-center text-white">
                             <div>
-                                <i class="bi bi-graph-up count-icon"></i>
+                           <img src="image/Products.png" alt="product">
                             </div>
                             <div class="py-2 count">
                                 <span id="count4">1000</span>+
@@ -193,53 +226,53 @@
   
         <div class="row lores">
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="capsules">
+            <img src="image/Capsules.png" alt="capsules">
         <h6 class="blue">Capsules</h6>
   
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/Tablets.png" alt="cream">
             <h6 class="blue">Tablets</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/Injection.png" alt="cream">
             <h6 class="blue">Injection</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/EyeDrop.png" alt="cream">
             <h6 class="blue">EyeDrop</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/Juice.png" alt="cream">
             <h6 class="blue">Juice</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="capsules">
+            <img src="image/Ointment-Creams.png" alt="capsules">
             <h6 class="blue">Ointment/Creams</h6>
   
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/Syrup.png" alt="cream">
             <h6 class="blue">Syrup</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/Powder.png" alt="cream">
             <h6 class="blue">Powder</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/Lotion-Shampoo.png" alt="cream">
             <h6 class="blue">Lotion/Shampoo</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/Ayurvedic-Oil.png" alt="cream">
             <h6 class="blue">Ayurvedic Oil</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
-            <h6 class="blue">Capsules</h6>
+            <img src="image/Softgel.png" alt="cream">
+            <h6 class="blue">Softgels</h6>
           </div>
           <div class=" product-logos col-md-3 col-sm-6">
-            <img src="image/placeholder.jpg" alt="cream">
+            <img src="image/Soap-Facewash.png" alt="cream">
             <h6 class="blue">Soap/Facewash</h6>
           </div>
   
@@ -257,7 +290,7 @@
               Our unwavering commitment to quality, innovation, and customer satisfaction has helped us build a strong presence in the pharmaceutical sector. With a state-of-the-art manufacturing facility, GMP-WHO certified production units, and an extensive distribution network, we ensure that our products meet the highest standards of efficacy and safety.</p>
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
-              <img src="image/placeholder.jpg" alt="pcd pharma">
+              <img src="image/PCD.png" alt="pcd pharma">
               </div>
               </div>
               </div>
@@ -289,14 +322,14 @@
                 <section class="why-choose-us py-5 text-center justify-content-center">
                   <div class="container">
                     <h2 class="blue py-2">Why Choose Us</h2>
-                    <img src="image/placeholder.jpg" alt="why choose us">
+                    <img src="image/Why Choose Us@1x.png" alt="why choose us">
                     </div>
                     </section>
                 <section class="Third-Party">
                   <div class="container">
                     <div class="row">
                       <div class="col-md-6 d-flex justify-content-center align-items-center">
-                        <img src="image/placeholder.jpg" alt="third party">
+                        <img src="image/Third-Party.png" alt="third party">
                         </div>
                       <div class="col-md-6">
                         <h2 class="blue">Third Party Manufacturing</h2>
