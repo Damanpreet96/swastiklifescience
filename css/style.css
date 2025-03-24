@@ -150,7 +150,7 @@ section.pcd {
 /* footer */
 
 .footer {  
-  backgroundback-color: #f2f2f2;
+  background-color: #f2f2f2;
   border-top: 1px solid color-mix(in srgb, #1977cc, transparent 75%);
   
   position: relative;
@@ -342,19 +342,31 @@ div#mini_contact_form {
 }
 .banner-content.w-100.py-md-5 {
   position: absolute;
-  top: 23%;
+  top: 20%;
 }
 .col-md-3.col-sm-7.ms-md-auto {
   background: #084b94;
-  padding: 20px;
+  padding: 18px;
   color: #fff;
+}
+form.mt-4 {
+  background: #084b94;
+  padding: 10px;
+  margin-top: 0 !important;
 }
 
 
 
+@media (min-width:990px) and (max-width: 1550px) {
 
-
-
+.form-control {  
+  padding: 0;  
+}
+.banner-content.w-100.py-md-5 {
+  position: absolute;
+  top: 26%;
+}
+}
 
 @media (max-width: 767px) {
   /* .row.lores {
