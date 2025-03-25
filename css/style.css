@@ -316,7 +316,7 @@ img#footer-logo {
 }
 .footer-form {
   position: fixed;
-  right: 15px;
+  right: 0px;
   bottom: 0;
   z-index: 1000;
   width: 286px;
@@ -360,11 +360,11 @@ form.mt-4 {
 @media (min-width:990px) and (max-width: 1550px) {
 
 .form-control {  
-  padding: 0;  
+  padding: 3px;  
 }
 .banner-content.w-100.py-md-5 {
   position: absolute;
-  top: 26%;
+  top: 23%;
 }
 }
 
